@@ -30,15 +30,15 @@ class Human @Inject constructor(
     }
 }
 
-class Male @Inject constructor() : Gender{
+class Male : Gender{
     override fun gender() {
-        println("I'm a male")
+        println("I'm a mala")
     }
 }
 
-class Female @Inject constructor() : Gender{
+class Female : Gender{
     override fun gender() {
-        println("I'm a female")
+        println("I'm a femala")
     }
 
 }
